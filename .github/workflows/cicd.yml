@@ -51,4 +51,4 @@ jobs:
           context: .
           file: ./DockerFile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/FastAPI-test-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/fastapi-test-app:latest
