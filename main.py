@@ -6,4 +6,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return jsonify({"message": "hello world"})
+    return {"message": "hello world"}
