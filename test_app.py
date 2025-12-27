@@ -14,4 +14,4 @@ def test_root():
 
     # 4. Kiểm tra nội dung trả về
     # Khác biệt: FastAPI thường trả về JSON, nên ta dùng .json() thay vì .data (bytes)
-    assert response.json == "hello world"
+    assert response.json() == "hello world"
